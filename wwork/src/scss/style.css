@@ -1,0 +1,61 @@
+#cards {
+  background: #e5e5e5;
+  height: 1000px;
+}
+#cards .container {
+  max-width: 1140px;
+}
+#cards .container .all .pust {
+  border-radius: 50%;
+  width: 365px;
+  height: 365px;
+  background: #ec7313;
+  margin: auto;
+}
+#cards .container .all .img1 {
+  position: relative;
+}
+#cards .container .all .img1 img {
+  width: 520px;
+  height: 495px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
+  position: absolute;
+  top: -180px;
+  left: 0;
+}
+#cards .container .all .img2 {
+  position: relative;
+}
+#cards .container .all .img2 img {
+  width: 420px;
+  height: 475px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
+  position: absolute;
+  top: 110px;
+  left: 167px;
+}
+#cards .container .all .sing {
+  background: #fff;
+  width: 420px;
+  height: 475px;
+  position: absolute;
+  bottom: 0px;
+  right: 300px;
+}
+#cards .container .all .sing .text {
+  text-align: center;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  list-style: none;
+}/*# sourceMappingURL=style.css.map */

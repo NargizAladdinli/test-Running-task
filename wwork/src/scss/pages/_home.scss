@@ -1,0 +1,56 @@
+#cards {
+    background: #e5e5e5;
+height: 1000px;
+    .container {
+        max-width: 1140px;
+
+        .all {
+            .pust {
+                border-radius: 50%;
+                width: 365px;
+                height: 365px;
+                background: #ec7313;
+                margin: auto;
+            }
+
+            .img1 {
+                position: relative;
+
+                img {
+                    width: 520px;
+                    height: 495px;
+                    object-fit: cover;
+                    object-position: center;
+                    position: absolute;
+                    top: -180px;
+                    left: 0;
+                }
+            }
+
+            .img2 {
+                position: relative;
+
+                img {
+                    width: 420px;
+                    height: 475px;
+                    object-fit: cover;
+                    object-position: center;
+                    position: absolute;
+                    top: 110px;
+                    left: 167px;
+                }
+            }
+            .sing{
+    background: #fff;
+    width: 420px;
+    height: 475px;
+    position: absolute;
+    bottom: 0px;
+    right: 300px;
+                .text{
+                    text-align: center;
+                }
+            }
+        }
+    }
+}
